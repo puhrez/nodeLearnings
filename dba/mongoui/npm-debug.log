@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/admin/nodelearn/dba/mongoui',
+5 verbose install   [ 'mongodb',
+5 verbose install     'monk',
+5 verbose install     'express',
+5 verbose install     'derby',
+5 verbose install     'async',
+5 verbose install     'highlight',
+5 verbose install     'derby-ui-boot' ] ]
+6 info preinstall mongoui@0.2.6
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping highlight@0.2.3 /Users/admin/nodelearn/dba/mongoui
+9 verbose cache add [ 'derby-ui-boot@git://github.com/azat-co/derby-ui-boot#v0.0.8',
+9 verbose cache add   null ]
+10 verbose cache add name=undefined spec="derby-ui-boot@git://github.com/azat-co/derby-ui-boot#v0.0.8" args=["derby-ui-boot@git://github.com/azat-co/derby-ui-boot#v0.0.8",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: '#v0.0.8',
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'derby-ui-boot@git://github.com/azat-co/derby-ui-boot',
+11 verbose parsed url   path: 'derby-ui-boot@git://github.com/azat-co/derby-ui-boot',
+11 verbose parsed url   href: 'derby-ui-boot@git://github.com/azat-co/derby-ui-boot#v0.0.8' }
+12 verbose already installed skipping mongodb@1.2.14 /Users/admin/nodelearn/dba/mongoui
+13 verbose cache add name="derby-ui-boot" spec="git://github.com/azat-co/derby-ui-boot#v0.0.8" args=["derby-ui-boot","git://github.com/azat-co/derby-ui-boot#v0.0.8"]
+14 verbose parsed url { protocol: 'git:',
+14 verbose parsed url   slashes: true,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: 'github.com',
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: 'github.com',
+14 verbose parsed url   hash: '#v0.0.8',
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '/azat-co/derby-ui-boot',
+14 verbose parsed url   path: '/azat-co/derby-ui-boot',
+14 verbose parsed url   href: 'git://github.com/azat-co/derby-ui-boot#v0.0.8' }
+15 silly lockFile 2fad5705-github-com-azat-co-derby-ui-boot git://github.com/azat-co/derby-ui-boot
+16 verbose lock git://github.com/azat-co/derby-ui-boot /Users/admin/.npm/2fad5705-github-com-azat-co-derby-ui-boot.lock
+17 verbose already installed skipping monk@0.7.1 /Users/admin/nodelearn/dba/mongoui
+18 verbose addRemoteGit [ 'git://github.com/azat-co/derby-ui-boot', 'v0.0.8' ]
+19 verbose already installed skipping express@3.1.0 /Users/admin/nodelearn/dba/mongoui
+20 verbose already installed skipping derby@git://github.com/azat-co/derby#c98b9a42f3245e25f0cb6fcacd80cb37835b9125 /Users/admin/nodelearn/dba/mongoui
+21 verbose already installed skipping async@* /Users/admin/nodelearn/dba/mongoui
+22 verbose git remote.origin.url git://github.com/azat-co/derby-ui-boot
+23 error git fetch -a origin (git://github.com/azat-co/derby-ui-boot) fatal: unable to connect to github.com:
+23 error git fetch -a origin (git://github.com/azat-co/derby-ui-boot) github.com[0: 198.18.1.76]: errno=Operation timed out
+24 silly lockFile 2fad5705-github-com-azat-co-derby-ui-boot git://github.com/azat-co/derby-ui-boot
+25 silly lockFile 2fad5705-github-com-azat-co-derby-ui-boot git://github.com/azat-co/derby-ui-boot
+26 error Error: Command failed: fatal: unable to connect to github.com:
+26 error github.com[0: 198.18.1.76]: errno=Operation timed out
+26 error
+26 error
+26 error     at ChildProcess.exithandler (child_process.js:647:15)
+26 error     at ChildProcess.emit (events.js:98:17)
+26 error     at maybeClose (child_process.js:755:16)
+26 error     at Socket.<anonymous> (child_process.js:968:11)
+26 error     at Socket.emit (events.js:95:17)
+26 error     at Pipe.close (net.js:465:12)
+27 error If you need help, you may report this *entire* log,
+27 error including the npm and node versions, at:
+27 error     <http://github.com/npm/npm/issues>
+28 error System Darwin 13.3.0
+29 error command "node" "/usr/local/bin/npm" "install"
+30 error cwd /Users/admin/nodelearn/dba/mongoui
+31 error node -v v0.10.29
+32 error npm -v 1.4.14
+33 error code 128
+34 verbose exit [ 1, true ]

@@ -1,0 +1,50 @@
+{
+  "name": "mongoui",
+  "version": "0.2.6",
+  "engines": {
+    "node": ">= v0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/azat-co/mongoui.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "mongodb": "1.2.14",
+    "monk": "0.7.1",
+    "express": "3.1.0",
+    "derby": "git://github.com/azat-co/derby#c98b9a42f3245e25f0cb6fcacd80cb37835b9125",
+    "async": "*",
+    "highlight": "0.2.3",
+    "derby-ui-boot": "git://github.com/azat-co/derby-ui-boot#v0.0.8"
+  },
+  "description": "MongoUI (mongoui) is a web browser admin interface for MongoDB. Currently a standalone tool (run as an app locally or on your server); middleware later.",
+  "bugs": {
+    "url": "https://github.com/azat-co/mongoui/issues"
+  },
+  "homepage": "https://github.com/azat-co/mongoui",
+  "_id": "mongoui@0.2.6",
+  "_shasum": "8e7a07a41d53ec18681800ea580a93457ae08902",
+  "_from": "mongoui@",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "azat",
+    "email": "hi@azat.co"
+  },
+  "maintainers": [
+    {
+      "name": "azat",
+      "email": "azat.mardanov@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "8e7a07a41d53ec18681800ea580a93457ae08902",
+    "tarball": "http://registry.npmjs.org/mongoui/-/mongoui-0.2.6.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/mongoui/-/mongoui-0.2.6.tgz",
+  "readme": "ERROR: No README data found!"
+}
